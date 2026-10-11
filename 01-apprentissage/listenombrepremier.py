@@ -1,7 +1,7 @@
 #Liste des nombre de prémier de 2 à N
 nombre = int(input("Entrez un nombre entier:\n<< "))
 if nombre <2:
-    print("Aucun nombre prémier, votre nombre doit être superieur ou egale à 2")
+    print("Aucun nombre premier, votre nombre doit être superieur ou egale à 2")
 else:
     print("===============liste de nombre prémiers de 2 à {}===============".format(nombre))
     for i in range(2,(nombre+1)): # Parcourt tous les nombres de 2 à nombre
